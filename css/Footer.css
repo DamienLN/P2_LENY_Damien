@@ -1,0 +1,30 @@
+/* ----------------------------------------- Footer ----------------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--clr-tertiaire);
+    padding: 20px 3.5%;
+}
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.footer-section {
+    width: calc(100% / 3);
+}
+
+/* Esthetique supprime les points de la liste */
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+/* Espacement entre les rubriques du footer */
+footer li {
+    margin-bottom: 10px;
+}
+

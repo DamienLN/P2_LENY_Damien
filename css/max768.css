@@ -1,0 +1,113 @@
+
+@media screen and (max-width: 768px) {
+
+    /* ----------------------------------------- Barre de recherche ----------------------------- */
+
+    /* Taille barre de recherche */
+    .research-bar {
+        width: 205px;
+        height: 43px;
+    }   
+
+    /* ----------------------------------------- Filtres ---------------------------------------- */
+
+    /* Mise en forme partie filtres */
+    .filter{
+        margin-bottom: 2%;
+    }
+    .filters{
+        padding:1%;
+    }
+
+    /* ----------------------------------------- Bulle info ------------------------------------- */
+
+    /* Mise en forme partie info */
+    .info{
+        display: flex;
+        align-items: baseline;
+        padding: 3%;
+    }
+
+    /* ----------------------------------------- Hebergements ----------------------------------- */
+ 
+    /* Mise en forme partie hebergements */
+    .accomodation-card {
+        width: 90%;
+        display: flex;
+        align-self: auto;
+        flex-direction: column;  
+    }
+    
+    /* ----------------------------------------- Les Plus Populaires ---------------------------- */
+    
+    /* Mise en forme patie populaires */
+    .popular {
+        padding: 5%;
+    }
+    .popular-card {
+        width: 95%;  
+    }
+
+    /* Disposition interieur des cartes */
+    .popular-card-details{
+        width:45%;
+        height: 130px;
+        font-size: 10px;
+    }
+
+    /* Esthetique image */
+    .popular-card img {
+        width: 150px;
+        height:150px;
+    }
+
+    /* Taille de police */
+    .popular h3, .popular p {
+        font-size: 15px;
+    }
+
+    /* Etoiles populaires */
+    .stars {
+        font-size: 13px;
+    }
+
+    /* ----------------------------------------- Activites -------------------------------------- */
+
+    /* Titre activite */
+    .activity-section h2{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    /* Passe en mode colonne */ 
+    .activity-column-small{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    /* Mise en forme partie activite */
+    .activity-container{
+        width: 96%;
+        margin:0px;
+    }
+    .small-card-one, .small-card-three{
+        margin-bottom: 10%;
+    }
+
+    /* ----------------------------------------- Footer ----------------------------------------- */
+
+    /* Mise en forme partie footer */
+    footer {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--clr-tertiaire);
+        padding:20px 40px 20px 40px;
+    }   
+    .footer-section { 
+        width: 100%;
+        padding-left: 5%;
+        margin-bottom: 30px;
+    }
+}
+    

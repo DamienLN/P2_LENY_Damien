@@ -1,0 +1,68 @@
+
+/* Couleurs utilisé sur le site */
+:root 
+{
+    --clr-primaire: #0065fc;
+    --clr-secondaire: #deebff;
+    --clr-tertiaire: #f2f2f2;
+}
+
+/* Police d écriture sur le site */
+* 
+{
+    font-family: "Raleway", sans-serif;
+    margin:0px;
+}
+
+/* Le site viens prendre tout l espace disponible */
+html, body 
+{
+    width: 100%;
+    
+}
+
+/* Marge de toute la page */
+#bloc_page
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/* Taille du texte utiliser pour les balises paragraphes du site */
+p 
+{
+    font-size: 14px;
+}
+
+/* Estétique pour les boutons Hébergements et Activités */
+a 
+{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/* Notation avec les étoiles sur le site */
+
+/* Etoile pleine */
+.fas.fa-star.active 
+{
+    color: var(--clr-primaire);
+}
+
+/* Etoile vide */
+.fas.fa-star
+{
+    color: var(--clr-tertiaire);
+}
+
+/* ----------------------------------------- Header ----------------------------------------- */
+/* ----------------------------------------- Barre de recherche ----------------------------- */
+/* ----------------------------------------- Filtres ---------------------------------------- */
+/* ----------------------------------------- Bulle info ------------------------------------- */
+/* ----------------------------------------- Hébergements ----------------------------------- */
+/* ----------------------------------------- Les Plus Populaires ---------------------------- */
+/* ----------------------------------------- Activités -------------------------------------- */
+/* ----------------------------------------- Footer ----------------------------------------- */
